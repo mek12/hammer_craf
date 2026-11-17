@@ -65,18 +65,18 @@ def load_results(root=ROOT):
 def summary(root=ROOT):
     baseline, records = load_results(root)
     columns = ['accuracy', 'balanced_accuracy', 'macro_f1', 'auc', 'cross_entropy']
-    lines = ['# Deney sonuçları - yeniden üretilebilir özet', '',
-             'Güncel kaynak: `results/server_records/` içindeki özgün sunucu raporları.',
-             'Eski sohbet transkripsiyonlarının kayıtlı normalize JSON hash değerleri doğrulanır. Yeni GPU ölçümü yapılmamıştır.', '',
-             'Örnek sayısı: 50.705. Sıralama/birim: ilk dört metrik yüzde, cross-entropy doğal log-kayıptır.', '',
+    lines = ['# Experimental results - reproducible summary', '',
+             'Current source: original server reports in `results/server_records/`.',
+             'Recorded normalized JSON hashes of historical chat transcriptions are verified. No new GPU measurements were performed.', '',
+             'Sample count: 50,705. Units: the first four metrics are percentages; cross-entropy is natural-log loss.', '',
              '| Model | Accuracy % | Balanced accuracy % | Macro-F1 % | AUC % | Cross-entropy |',
              '|---|---:|---:|---:|---:|---:|']
     all_models = [('HAMMER baseline', baseline)] + [(name, r['craf']) for name, r in records]
     for name, metrics in all_models:
         values = [f'{100 * metrics[k]:.4f}' if k != 'cross_entropy' else f'{metrics[k]:.6f}' for k in columns]
         lines.append('| ' + name + ' | ' + ' | '.join(values) + ' |')
-    lines += ['', '## Baseline farkları', '',
-              '| Model | Delta AUC (yüzde puan) | Delta accuracy (yüzde puan) | Delta macro-F1 (yüzde puan) | Net ek doğru | Delta CE |',
+    lines += ['', '## Differences from baseline', '',
+              '| Model | Delta AUC (percentage points) | Delta accuracy (percentage points) | Delta macro-F1 (percentage points) | Net additional correct predictions | Delta CE |',
               '|---|---:|---:|---:|---:|---:|']
     base_count = from_matrix(baseline['confusion_matrix'])
     for name, result in records:
@@ -86,19 +86,19 @@ def summary(root=ROOT):
                      f"{100*(m['macro_f1']-baseline['macro_f1']):+.4f} | "
                      f"{counts['correct']-base_count['correct']:+d} | "
                      f"{m['cross_entropy']-baseline['cross_entropy']:+.6f} |")
-    lines += ['', '## Hata türleri', '', '| Model | Yanlış alarm (gerçek → sahte) | Kaçırılan manipülasyon (sahte → gerçek) | Seçilen epoch (1 tabanlı) |',
+    lines += ['', '## Error types', '', '| Model | False alarms (real → fake) | Missed manipulations (fake → real) | Selected epoch (one-based) |',
               '|---|---:|---:|---:|']
     for name, result in records:
         c = from_matrix(result['craf']['confusion_matrix'])
         lines.append(f"| {name} | {c['fp']} | {c['fn']} | {result['selected_epoch']+1} |")
-    lines += ['', '## Sınırlar', '',
-              '- Bunlar yalnızca binary detection sonuçlarıdır; CRAF grounding başarısı ölçülmüş değildir.',
-              '- AUC ve cross-entropy toplulaştırılmış matristen yeniden hesaplanamaz; JSON değerleri korunur.',
-              '- Örnek bazında üç test tahmin dosyası artık vardır; ek analiz `SERVER_SUMMARY.md` içindedir. Tek seed sınırı sürer.',
-              '- V1 öğrenme oranıyla birlikte patience da değişmiştir; fark yalnızca öğrenme oranına bağlanmaz.',
-              '- V2 dört koşulun validation sonuçları artık vardır; ayrı validation tablosu `SERVER_SUMMARY.md` içindedir.',
-              '- V2 control/penalty/decision test raporları bulunmadığından test tablosunda bunlara skor atanmaz.',
-              '- Test sonuçları sonraki varyant tasarımlarını etkiledi: karşılaştırma keşifseldir, bağımsız final holdout değildir.', '']
+    lines += ['', '## Limitations', '',
+              '- These are binary detection results only; CRAF grounding performance has not been measured.',
+              '- AUC and cross-entropy cannot be recomputed from the aggregated confusion matrix; the JSON values are retained.',
+              '- Three example-level test prediction files are now available; additional analysis is in `SERVER_SUMMARY.md`. The single-seed limitation remains.',
+              '- V1 patience changed along with the learning rate; differences cannot be attributed solely to the learning rate.',
+              '- Validation results for all four V2 conditions are now available; a separate validation table is in `SERVER_SUMMARY.md`.',
+              '- No V2 control/penalty/decision test reports are available, so these variants receive no scores in the test table.',
+              '- Test results influenced subsequent variant designs: the comparison is exploratory, not an independent final holdout evaluation.', '']
     return '\n'.join(lines)
 
 
