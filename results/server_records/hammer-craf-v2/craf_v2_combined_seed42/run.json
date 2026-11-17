@@ -1,0 +1,61 @@
+{
+  "config": {
+    "format": "frozen_hammer_craf_v2",
+    "head": {
+      "feature_dim": 768,
+      "hidden_dim": 256,
+      "dropout": 0.2,
+      "condition_on_decision": true
+    },
+    "learning_rate": 1e-05,
+    "weight_decay": 0.01,
+    "correction_lambda": 0.01,
+    "batch_size": 512,
+    "seed": 42,
+    "patience": 8,
+    "selection_metric": "auc",
+    "backbone": {
+      "format": "frozen_hammer_craf_v1",
+      "backbone_sha256": "3c6fd717660dbe72cec1cdb4e60de58b99f57fc4f8005dc659130d39678fe872",
+      "bert_config_sha256": "7fa0cb8b921b97cdf02f098be062796f34964ff22fb8370f5e3df9c292c321ce",
+      "tokenizer_sha256": "9114256b104cca80e04367526f03f46aa3c443c2ed174904142a73bbf13b9fbb",
+      "image_res": 256,
+      "max_words": 50,
+      "extraction": "official_eval_transform_pre_caption_remove_SEP_prefusion_CLS_v1",
+      "source_sha256": {
+        "models/HAMMER.py": "2d46629ca23a3480eaad3d33f52c40d4d399e1a9d6ae43fd6cbdf2f7ba4d86b8",
+        "models/xbert.py": "d8a52fe28403200b56c2a8251136b16ae40de3c4738da6950fdbd568a2d10c49",
+        "models/vit.py": "67cc0072ec97a8e8f40e18dd1291ce41ab2497b56211099ba4228d0df0cf50fb",
+        "dataset/dataset.py": "710d6ab35588cbdafaa02a6074ae1e379a1f8ea2ff83eb6266060519c451bfbc",
+        "dataset/utils.py": "4fa50f7892be8a00645a02e8e60bfa6069c326c686275b8dc04854407ac3248e",
+        "train.py": "75c41730c63a327babb6bce14fe55073a5a95baa53e2ea21dcf9d519d3fb4763"
+      },
+      "extractor_sha256": "bb7fd19ebb758a042b665cc5c5b91214e01e2d326f0a87eb9de0139b0af635d1"
+    },
+    "train_manifest_sha256": "dc0a5b227cab25ba197edf35b3325450f3e5b00f317c8fba72e24de2a48e65f1",
+    "val_manifest_sha256": "ee977a873977256152d37933d41d6c8e1d44891b20e7f7927b62cbb3b956d1e7",
+    "head_source_sha256": "8c88690940a28b4b90a7f67d997e7701392de705be9cf699ed51660370aa4faa",
+    "trainer_source_sha256": "0069e26e8fdd46c8206b676437ad7f6be6c2e3fe4e4b547bf88952c56a844167",
+    "helper_source_sha256": "bb7fd19ebb758a042b665cc5c5b91214e01e2d326f0a87eb9de0139b0af635d1",
+    "objective": "CE(z_HAMMER + delta) + lambda * mean((delta_fake - delta_real)^2)",
+    "decision_inputs": "p_fake, signed_margin/(1+abs(margin)), entropy/log(2); detached; no labels"
+  },
+  "baseline_validation": {
+    "accuracy": 0.848955979390762,
+    "balanced_accuracy": 0.833899611339054,
+    "macro_f1": 0.8320817647813279,
+    "auc": 0.9232464744505868,
+    "cross_entropy": 0.5413291792021263,
+    "confusion_matrix": [
+      [
+        5885,
+        1588
+      ],
+      [
+        1754,
+        12899
+      ]
+    ]
+  },
+  "target_epochs": 30
+}

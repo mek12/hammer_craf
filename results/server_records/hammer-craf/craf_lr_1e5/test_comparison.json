@@ -1,0 +1,61 @@
+{
+  "split": "test",
+  "count": 50705,
+  "craf_checkpoint_sha256": "384cef5bd322a9873ae9c9252b493dc3f9a81651e6160fe60fb2f53be24c7df4",
+  "cache_identity": {
+    "format": "frozen_hammer_craf_v1",
+    "backbone_sha256": "3c6fd717660dbe72cec1cdb4e60de58b99f57fc4f8005dc659130d39678fe872",
+    "bert_config_sha256": "7fa0cb8b921b97cdf02f098be062796f34964ff22fb8370f5e3df9c292c321ce",
+    "tokenizer_sha256": "9114256b104cca80e04367526f03f46aa3c443c2ed174904142a73bbf13b9fbb",
+    "image_res": 256,
+    "max_words": 50,
+    "extraction": "official_eval_transform_pre_caption_remove_SEP_prefusion_CLS_v1",
+    "source_sha256": {
+      "models/HAMMER.py": "2d46629ca23a3480eaad3d33f52c40d4d399e1a9d6ae43fd6cbdf2f7ba4d86b8",
+      "models/xbert.py": "d8a52fe28403200b56c2a8251136b16ae40de3c4738da6950fdbd568a2d10c49",
+      "models/vit.py": "67cc0072ec97a8e8f40e18dd1291ce41ab2497b56211099ba4228d0df0cf50fb",
+      "dataset/dataset.py": "710d6ab35588cbdafaa02a6074ae1e379a1f8ea2ff83eb6266060519c451bfbc",
+      "dataset/utils.py": "4fa50f7892be8a00645a02e8e60bfa6069c326c686275b8dc04854407ac3248e",
+      "train.py": "75c41730c63a327babb6bce14fe55073a5a95baa53e2ea21dcf9d519d3fb4763"
+    },
+    "extractor_sha256": "bb7fd19ebb758a042b665cc5c5b91214e01e2d326f0a87eb9de0139b0af635d1",
+    "split": "test",
+    "metadata_sha256": "b58b29c4cf0f40cdf791189181ad57821f9359e358e93683cc702db3a41c0a18"
+  },
+  "selected_epoch": 8,
+  "baseline": {
+    "accuracy": 0.8534266837589981,
+    "balanced_accuracy": 0.8385132719737896,
+    "macro_f1": 0.8361214788764306,
+    "auc": 0.9266600320221011,
+    "cross_entropy": 0.5260908198173748,
+    "confusion_matrix": [
+      [
+        13398,
+        3478
+      ],
+      [
+        3954,
+        29875
+      ]
+    ]
+  },
+  "craf": {
+    "accuracy": 0.8553397100877626,
+    "balanced_accuracy": 0.8405557070205811,
+    "macro_f1": 0.8382255755587066,
+    "auc": 0.9285922889328271,
+    "cross_entropy": 0.5646520521504247,
+    "confusion_matrix": [
+      [
+        13439,
+        3437
+      ],
+      [
+        3898,
+        29931
+      ]
+    ]
+  },
+  "note": "Binary detection only. Other HAMMER heads unchanged; no robustness claim."
+}

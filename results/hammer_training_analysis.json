@@ -1,0 +1,192 @@
+{
+  "status": "passed",
+  "completed_logged_epochs": 11,
+  "last_epoch_zero_based": 10,
+  "selected_epoch_zero_based": 10,
+  "selected_epoch_one_based": 11,
+  "planned_epochs": 25,
+  "world_size": 4,
+  "per_gpu_batch": 64,
+  "nominal_global_batch": 256,
+  "seed": 42,
+  "logged_epoch_seconds_sum": 14907.237144708633,
+  "test_seconds": 269.18170142173767,
+  "test_metrics": {
+    "AUC_cls": 0.9266600328979141,
+    "ACC_cls": 0.8534266837589981,
+    "EER_cls": 0.1513789943539566,
+    "MAP": 0.8644028902053833,
+    "OP": 0.804364240410752,
+    "OR": 0.7738818800397124,
+    "OF1": 0.788828690962495,
+    "CP": 0.7859663730090666,
+    "CR": 0.7742784754420186,
+    "CF1": 0.7800786468178896,
+    "OP_k": 0.804364240410752,
+    "OR_k": 0.7738818800397124,
+    "OF1_k": 0.788828690962495,
+    "CP_k": 0.7859663730090666,
+    "CR_k": 0.7742784754420186,
+    "CF1_k": 0.7800786468178896,
+    "IOU_score": 0.7061184008892262,
+    "IOU_ACC_50": 0.7893107188640174,
+    "IOU_ACC_75": 0.6177102849817572,
+    "IOU_ACC_95": 0.396962824179075,
+    "ACC_tok": 0.9127491604816488,
+    "Precision_tok": 0.7440190889732047,
+    "Recall_tok": 0.6746737113564173,
+    "F1_tok": 0.7076516071145829
+  },
+  "checkpoint_sha256": "3c6fd717660dbe72cec1cdb4e60de58b99f57fc4f8005dc659130d39678fe872",
+  "comparisons": [
+    {
+      "report": "hammer-craf/craf_results/test_comparison.json",
+      "official_minus_cached_baseline_auc": 8.758129776964552e-10
+    },
+    {
+      "report": "hammer-craf/craf_lr_1e5/test_comparison.json",
+      "official_minus_cached_baseline_auc": 8.758129776964552e-10
+    },
+    {
+      "report": "hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json",
+      "official_minus_cached_baseline_auc": 8.758129776964552e-10
+    }
+  ],
+  "checks": [
+    {
+      "name": "epochs contiguous and begin at zero",
+      "passed": true
+    },
+    {
+      "name": "epoch 0: cumulative best AUC",
+      "passed": true
+    },
+    {
+      "name": "epoch 1: cumulative best AUC",
+      "passed": true
+    },
+    {
+      "name": "epoch 2: cumulative best AUC",
+      "passed": true
+    },
+    {
+      "name": "epoch 3: cumulative best AUC",
+      "passed": true
+    },
+    {
+      "name": "epoch 4: cumulative best AUC",
+      "passed": true
+    },
+    {
+      "name": "epoch 5: cumulative best AUC",
+      "passed": true
+    },
+    {
+      "name": "epoch 6: cumulative best AUC",
+      "passed": true
+    },
+    {
+      "name": "epoch 7: cumulative best AUC",
+      "passed": true
+    },
+    {
+      "name": "epoch 8: cumulative best AUC",
+      "passed": true
+    },
+    {
+      "name": "epoch 9: cumulative best AUC",
+      "passed": true
+    },
+    {
+      "name": "epoch 10: cumulative best AUC",
+      "passed": true
+    },
+    {
+      "name": "test checkpoint epoch equals best validation epoch",
+      "passed": true
+    },
+    {
+      "name": "planned epoch settings agree",
+      "passed": true
+    },
+    {
+      "name": "batch settings agree",
+      "passed": true
+    },
+    {
+      "name": "ALBEF initialization and no resume recorded",
+      "passed": true
+    },
+    {
+      "name": "strict checkpoint test on full test split",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf/craf_results/test_comparison.json: backbone hash",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf/craf_results/test_comparison.json: metadata hash",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf/craf_results/test_comparison.json: accuracy",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf/craf_results/test_comparison.json: AUC within 1e-7",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf/craf_results/test_comparison.json: recorded upstream source hashes",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf/craf_lr_1e5/test_comparison.json: backbone hash",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf/craf_lr_1e5/test_comparison.json: metadata hash",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf/craf_lr_1e5/test_comparison.json: accuracy",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf/craf_lr_1e5/test_comparison.json: AUC within 1e-7",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf/craf_lr_1e5/test_comparison.json: recorded upstream source hashes",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json: backbone hash",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json: metadata hash",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json: accuracy",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json: AUC within 1e-7",
+      "passed": true
+    },
+    {
+      "name": "hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json: recorded upstream source hashes",
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "11 logged epochs do not establish that the planned 25 epochs finished; stop reason absent",
+    "nominal global batch based on run_args and packaged launcher semantics; GPU model is user supplied",
+    "recorded checkpoint hash matches cache identity; weight file not loaded",
+    "timing includes checkpoint writes in packaged HAMMER launcher; excludes setup and final per-epoch trailing operations",
+    "official evaluation AUC differs from cached float32 baseline by about 8.76e-10; original values preserved"
+  ]
+}

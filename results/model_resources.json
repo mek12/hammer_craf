@@ -1,0 +1,26 @@
+{
+  "measurement": "exact parameter count from packaged architecture; no GPU timing/memory measurement",
+  "rows": [
+    {
+      "model": "v1",
+      "feature_dim": 768,
+      "hidden_dim": 256,
+      "trainable_parameters": 922117,
+      "fp32_weight_bytes": 3688468
+    },
+    {
+      "model": "v2_control",
+      "feature_dim": 768,
+      "hidden_dim": 256,
+      "trainable_parameters": 922117,
+      "fp32_weight_bytes": 3688468
+    },
+    {
+      "model": "v2_decision",
+      "feature_dim": 768,
+      "hidden_dim": 256,
+      "trainable_parameters": 922885,
+      "fp32_weight_bytes": 3691540
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "imported_on": "2026-11-13",
+  "scope": "Original server evidence, deduplicated on 2026-11-17. source records the imported name; archived resolves to the single retained file. Weights/cache shards absent.",
+  "files": [
+    {
+      "source": "hammer-craf/CRAF_Sunucu_Calistirma.md",
+      "archived": "results/server_records/hammer-craf/CRAF_Sunucu_Calistirma.md",
+      "bytes": 8645,
+      "sha256": "a58e56a469aa08eea0e3ad1e22ca77ebbb4e7d52a1a498a7279df42d4ce1a71a"
+    },
+    {
+      "source": "hammer-craf/craf_features/test.manifest.json",
+      "archived": "results/server_records/hammer-craf/craf_features/test.manifest.json",
+      "bytes": 227630,
+      "sha256": "138949eddca1c1a291a86622ad0bf21f9635113bd83dd09137179b30fed0779f"
+    },
+    {
+      "source": "hammer-craf/craf_features/train.manifest.json",
+      "archived": "results/server_records/hammer-craf/craf_features/train.manifest.json",
+      "bytes": 701930,
+      "sha256": "dc0a5b227cab25ba197edf35b3325450f3e5b00f317c8fba72e24de2a48e65f1"
+    },
+    {
+      "source": "hammer-craf/craf_features/val.manifest.json",
+      "archived": "results/server_records/hammer-craf/craf_features/val.manifest.json",
+      "bytes": 99972,
+      "sha256": "ee977a873977256152d37933d41d6c8e1d44891b20e7f7927b62cbb3b956d1e7"
+    },
+    {
+      "source": "hammer-craf/craf_lr_1e5/history.json",
+      "archived": "results/server_records/hammer-craf/craf_lr_1e5/history.json",
+      "bytes": 8848,
+      "sha256": "2ac574f0fbaae3a76dac8c3fa6393f8f8112030e7d73aa4a00037188b3fe7d2a"
+    },
+    {
+      "source": "hammer-craf/craf_lr_1e5/run.json",
+      "archived": "results/server_records/hammer-craf/craf_lr_1e5/run.json",
+      "bytes": 2391,
+      "sha256": "7499cf147f0d91f279b6f7df9d83e22360730fcf67772309cd4bba7b23942504"
+    },
+    {
+      "source": "hammer-craf/craf_lr_1e5/test_comparison.json",
+      "archived": "results/server_records/hammer-craf/craf_lr_1e5/test_comparison.json",
+      "bytes": 2161,
+      "sha256": "4f1c7fbfdcb8d528fd64f8a0944b4ef68f22305faaa8e92e3c83471f69c1b54f"
+    },
+    {
+      "source": "hammer-craf/craf_lr_1e5/test_comparison_predictions.jsonl",
+      "archived": "results/server_records/hammer-craf/craf_lr_1e5/test_comparison_predictions.jsonl",
+      "bytes": 6342997,
+      "sha256": "91adb33981ce03a3cd4c87c55a294c79ea6071a1250df036231a4e7fa06ca3b3"
+    },
+    {
+      "source": "hammer-craf/craf_lr_1e5/validation_comparison.json",
+      "archived": "results/server_records/hammer-craf/craf_lr_1e5/validation_comparison.json",
+      "bytes": 720,
+      "sha256": "6b147bb7c96b53a48ab9262d3771d25a6d0dcefc30ea2170b60a3a8f727569ed"
+    },
+    {
+      "source": "hammer-craf/craf_residual.py",
+      "archived": "gpu/craf_residual.py",
+      "bytes": 6618,
+      "sha256": "8fba844c8e377b8ae221b3a771a7754e9f6a6d89e4788194be5b1e22c1d811e6"
+    },
+    {
+      "source": "hammer-craf/craf_results/history.json",
+      "archived": "results/server_records/hammer-craf/craf_results/history.json",
+      "bytes": 3641,
+      "sha256": "42fa6f8b9049b65e4209b55764ca68d1b51efeaf12840a5f81a7631518ce66ec"
+    },
+    {
+      "source": "hammer-craf/craf_results/run.json",
+      "archived": "results/server_records/hammer-craf/craf_results/run.json",
+      "bytes": 2392,
+      "sha256": "c818c76854a9df2393d8cfac7b883f4bb676258a522dde43c501cf9aa1651fa8"
+    },
+    {
+      "source": "hammer-craf/craf_results/test_comparison.json",
+      "archived": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+      "bytes": 2160,
+      "sha256": "a748d5339361a2a953776ed8c3f2e375ff0232988be0c0880156ac92da950b9f"
+    },
+    {
+      "source": "hammer-craf/craf_results/test_comparison_predictions.jsonl",
+      "archived": "results/server_records/hammer-craf/craf_results/test_comparison_predictions.jsonl",
+      "bytes": 6342420,
+      "sha256": "c05144d0e9e3bd0a3fac3510d8542cc92e4a1b4c7e1605e62a1ab790c1e403a6"
+    },
+    {
+      "source": "hammer-craf/craf_results/validation_comparison.json",
+      "archived": "results/server_records/hammer-craf/craf_results/validation_comparison.json",
+      "bytes": 720,
+      "sha256": "3b62a20c4868d9d1333556cc949bd507a64212a5ef80bac95b54d62a2fef7e44"
+    },
+    {
+      "source": "hammer-craf/hammer_craf_server.py",
+      "archived": "gpu/hammer_craf_server.py",
+      "bytes": 27978,
+      "sha256": "bb7fd19ebb758a042b665cc5c5b91214e01e2d326f0a87eb9de0139b0af635d1"
+    },
+    {
+      "source": "hammer-craf/requirements_hammer_4gpu.txt",
+      "archived": "gpu/requirements_hammer_4gpu.txt",
+      "bytes": 342,
+      "sha256": "4249f7d10d7c707997e666f8b6f19dc0f1b457800be0b65d8fb7eab6ae15c6c0"
+    },
+    {
+      "source": "hammer-craf/run_craf_server.sh",
+      "archived": "gpu/run_craf_server.sh",
+      "bytes": 2741,
+      "sha256": "2e547f76615e239957cc57e9759cd4d178e73631963609555880c281fea76906"
+    },
+    {
+      "source": "hammer-craf/test_hammer_craf_server.py",
+      "archived": "gpu/test_hammer_craf_server.py",
+      "bytes": 6747,
+      "sha256": "1776776358ac73855adc45c202c63830ce9750587933d49c8fe18efcddfc2d6c"
+    },
+    {
+      "source": "hammer-craf/train_hammer_4gpu.py",
+      "archived": "gpu/train_hammer_4gpu.py",
+      "bytes": 15829,
+      "sha256": "4da2a691407ea248bc10d4a7683aa8d5ebdd7658424fc0d535c2162db9f4319b"
+    },
+    {
+      "source": "hammer-craf-v2/CRAF_V2_Calistirma.md",
+      "archived": "results/server_records/hammer-craf-v2/CRAF_V2_Calistirma.md",
+      "bytes": 7014,
+      "sha256": "65930b5ae7b257f3172b70132ea76eafeda45e0f09627ef27f816c5b8bc51483"
+    },
+    {
+      "source": "hammer-craf-v2/craf_residual.py",
+      "archived": "gpu/craf_residual.py",
+      "bytes": 6618,
+      "sha256": "8fba844c8e377b8ae221b3a771a7754e9f6a6d89e4788194be5b1e22c1d811e6"
+    },
+    {
+      "source": "hammer-craf-v2/craf_residual_v2.py",
+      "archived": "gpu/craf_residual_v2.py",
+      "bytes": 8266,
+      "sha256": "8c88690940a28b4b90a7f67d997e7701392de705be9cf699ed51660370aa4faa"
+    },
+    {
+      "source": "hammer-craf-v2/craf_v2_combined_seed42/history.json",
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/history.json",
+      "bytes": 17054,
+      "sha256": "149558130a317302aab3596acc640961d70a094a76d33c139f0602f1aa1d5e9f"
+    },
+    {
+      "source": "hammer-craf-v2/craf_v2_combined_seed42/run.json",
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/run.json",
+      "bytes": 2567,
+      "sha256": "1b9b75a4e57fa8f03a6d60ef537a7e762fc1043f1aa218985682fe00490f0338"
+    },
+    {
+      "source": "hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json",
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json",
+      "bytes": 2397,
+      "sha256": "17fcb56f27c105b5a492936161b07c8224ec53b70e46ac2a5b379cf331f677de"
+    },
+    {
+      "source": "hammer-craf-v2/craf_v2_combined_seed42/test_comparison_predictions.jsonl",
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/test_comparison_predictions.jsonl",
+      "bytes": 6340559,
+      "sha256": "9c11983f79ddb1eb0fa1809ad5ed44db3b77c0d919524ccc47cc29e28805e47d"
+    },
+    {
+      "source": "hammer-craf-v2/craf_v2_combined_seed42/validation_comparison.json",
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/validation_comparison.json",
+      "bytes": 908,
+      "sha256": "857f483e3f947083e4ed074a4b6f52cff6f5b766b3bcb9ef3267815ae8302f6f"
+    },
+    {
+      "source": "hammer-craf-v2/craf_v2_control_seed42/history.json",
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_control_seed42/history.json",
+      "bytes": 13461,
+      "sha256": "e8f4d5efa96eca4b59553959949c86e07cdd0995dd5ad78722432158653ef065"
+    },
+    {
+      "source": "hammer-craf-v2/craf_v2_control_seed42/run.json",
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_control_seed42/run.json",
+      "bytes": 2567,
+      "sha256": "dadb3424756a96a1678cd05c522a016b4721a03be06addc87c3943094bf050ba"
+    },
+    {
+      "source": "hammer-craf-v2/craf_v2_control_seed42/validation_comparison.json",
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_control_seed42/validation_comparison.json",
+      "bytes": 907,
+      "sha256": "c37e0bfffd00771ed844b3139e8016a13cc22016905ffef83bf685ce29871031"
+    },
+    {
+      "source": "hammer-craf-v2/craf_v2_decision_seed42/history.json",
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_decision_seed42/history.json",
+      "bytes": 8711,
+      "sha256": "eb120a73288f00b10b54679a3a13206d06bda51b026062b1616b455a961ff6a4"
+    },
+    {
+      "source": "hammer-craf-v2/craf_v2_decision_seed42/run.json",
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_decision_seed42/run.json",
+      "bytes": 2566,
+      "sha256": "de6acb7dbdab66b398a683b7cea8ec3f8f8ba66066129a2c5f4baa9010a21c52"
+    },
+    {
+      "source": "hammer-craf-v2/craf_v2_decision_seed42/validation_comparison.json",
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_decision_seed42/validation_comparison.json",
+      "bytes": 905,
+      "sha256": "f57052dcde41810cc0aae2962e2e84a1869bff0047f2f779aaef025a907295ad"
+    },
+    {
+      "source": "hammer-craf-v2/craf_v2_penalty_seed42/history.json",
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_penalty_seed42/history.json",
+      "bytes": 19486,
+      "sha256": "59c237c0056504bc0c9c293bc7739766f4b1bc59b628d99e98e90ef524eabfc9"
+    },
+    {
+      "source": "hammer-craf-v2/craf_v2_penalty_seed42/run.json",
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_penalty_seed42/run.json",
+      "bytes": 2568,
+      "sha256": "b0798690cc289663cdccb2cffa70711b23799bf5db117ca4003cab64bd4f05ed"
+    },
+    {
+      "source": "hammer-craf-v2/craf_v2_penalty_seed42/validation_comparison.json",
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_penalty_seed42/validation_comparison.json",
+      "bytes": 908,
+      "sha256": "aecac300a9d0dfbfb757cc72546ae18e3fb01f3b39948e46380f5762e98243cc"
+    },
+    {
+      "source": "hammer-craf-v2/hammer_craf_server.py",
+      "archived": "gpu/hammer_craf_server.py",
+      "bytes": 27978,
+      "sha256": "bb7fd19ebb758a042b665cc5c5b91214e01e2d326f0a87eb9de0139b0af635d1"
+    },
+    {
+      "source": "hammer-craf-v2/hammer_craf_v2_server.py",
+      "archived": "gpu/hammer_craf_v2_server.py",
+      "bytes": 13211,
+      "sha256": "0069e26e8fdd46c8206b676437ad7f6be6c2e3fe4e4b547bf88952c56a844167"
+    },
+    {
+      "source": "hammer-craf-v2/run_craf_v2_experiments.sh",
+      "archived": "gpu/run_craf_v2_experiments.sh",
+      "bytes": 1692,
+      "sha256": "4f9f934c40fe194176a33d7425423ef0de1459477a804333eb1be27f3248cc46"
+    },
+    {
+      "source": "hammer-craf-v2/test_craf_residual_v2.py",
+      "archived": "gpu/test_craf_residual_v2.py",
+      "bytes": 11869,
+      "sha256": "2c2cdb7138e3680f80129d058c1f9d43157f964a356a097b1e49275f23a77ffd"
+    },
+    {
+      "source": "hammer-craf-v2/test_hammer_craf_server.py",
+      "archived": "gpu/test_hammer_craf_server.py",
+      "bytes": 6747,
+      "sha256": "1776776358ac73855adc45c202c63830ce9750587933d49c8fe18efcddfc2d6c"
+    },
+    {
+      "source": "hammer-craf-v2/test_hammer_craf_v2_server.py",
+      "archived": "gpu/test_hammer_craf_v2_server.py",
+      "bytes": 3376,
+      "sha256": "c80a67c7d0e47d183beb2f2e6222e8310ed7567cf4b9a738937153535cc22d31"
+    },
+    {
+      "source": "hammer-craf-v2/train_hammer_4gpu.py",
+      "archived": "gpu/train_hammer_4gpu.py",
+      "bytes": 15829,
+      "sha256": "4da2a691407ea248bc10d4a7683aa8d5ebdd7658424fc0d535c2162db9f4319b"
+    },
+    {
+      "source": "/Users/emirkocak/myProjects/yüksek lisans/multimodal learning/test_metrics.json",
+      "archived": "results/server_records/hammer_training/test_metrics.json",
+      "bytes": 1793,
+      "sha256": "112761189e85ecc5a4c50258e88c1a8ee2b9d9c0fe5ac416b3651fd077190b37"
+    },
+    {
+      "source": "/Users/emirkocak/myProjects/yüksek lisans/multimodal learning/config.yaml",
+      "archived": "results/server_records/hammer_training/config.yaml",
+      "bytes": 794,
+      "sha256": "c6a4d61bd1cfc573066d536e2ab275f122f6712bf077f730d340321985ce4615"
+    },
+    {
+      "source": "/Users/emirkocak/myProjects/yüksek lisans/multimodal learning/log.jsonl",
+      "archived": "results/server_records/hammer_training/log.jsonl",
+      "bytes": 10935,
+      "sha256": "a59b07956be109f2602b661f71343edba762a2f03aa4b988ae81f77968d6f46e"
+    },
+    {
+      "source": "/Users/emirkocak/myProjects/yüksek lisans/multimodal learning/run_args.json",
+      "archived": "results/server_records/hammer_training/run_args.json",
+      "bytes": 666,
+      "sha256": "2849d84379c0a5e902552776d914f123a1b068835b8ca43c3a709155410bba3e"
+    }
+  ]
+}

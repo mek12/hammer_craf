@@ -1,0 +1,39 @@
+{
+  "split": "val",
+  "selected_epoch": 8,
+  "baseline": {
+    "accuracy": 0.848955979390762,
+    "balanced_accuracy": 0.833899611339054,
+    "macro_f1": 0.8320817647813279,
+    "auc": 0.9232464744505868,
+    "cross_entropy": 0.5413291792021263,
+    "confusion_matrix": [
+      [
+        5885,
+        1588
+      ],
+      [
+        1754,
+        12899
+      ]
+    ]
+  },
+  "craf": {
+    "accuracy": 0.8518936997197867,
+    "balanced_accuracy": 0.8371011320363857,
+    "macro_f1": 0.8353214400625455,
+    "auc": 0.9249354319239976,
+    "cross_entropy": 0.5847013137194585,
+    "confusion_matrix": [
+      [
+        5915,
+        1558
+      ],
+      [
+        1719,
+        12934
+      ]
+    ]
+  },
+  "test_used": false
+}
