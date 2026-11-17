@@ -142,7 +142,7 @@ TEST_OUTPUT="$RESULTS_ROOT/evaluation/v2_combined_test.json" \
 
 Evaluation produces JSON metrics and a `_predictions.jsonl` file. If you do not
 have a test cache, first follow the `extract` step in the
-[GPU guide](docs/GPU_KULLANIM.md). That guide also covers full HAMMER training,
+[GPU guide](docs/GPU_USAGE.md). That guide also covers full HAMMER training,
 testing, and resume commands. Use each existing checkpoint with its matching
 V1/V2 evaluator; do not bypass cache or source-hash checks.
 

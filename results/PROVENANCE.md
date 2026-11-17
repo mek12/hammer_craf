@@ -58,8 +58,8 @@ Bu kayıtlar haberin görüntü/metin içeriği değildir; tek başına anlamsal
 nedenini göstermez.
 
 Sayısal yöntemler `SERVER_SUMMARY.md`, `server_analysis.json` ve
-`../docs/SERVER_SONUC_ANALIZI.md` içindedir. Kod/hyperparametre doğrulaması
-`../docs/SERVER_KOD_KARSILASTIRMASI.md` ve `../qa/SERVER_SOURCE_AUDIT.json`
+`../docs/SERVER_RESULTS_ANALYSIS.md` içindedir. Kod/hyperparametre doğrulaması
+`../docs/SERVER_CODE_AUDIT.md` ve `../qa/SERVER_SOURCE_AUDIT.json`
 içindedir. Ham dosyaların incelenmesi onları yeni GPU çalıştırmasıyla
 bağımsız yeniden üretmek anlamına gelmez.
 

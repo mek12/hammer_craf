@@ -1,0 +1,20 @@
+{
+  "description": "Fingerprints recorded before removal of JSON transcriptions equal to archived server reports. Historical equality is verified by normalized JSON SHA256, not a second independent file.",
+  "files": {
+    "craf_v1_lr1e4_test.json": {
+      "archived": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+      "original_sha256": "a748d5339361a2a953776ed8c3f2e375ff0232988be0c0880156ac92da950b9f",
+      "normalized_json_sha256": "3a16e65dec79598b4568baac629d07bbc83d9a4636d79ab1adbf2fe26ece4d76"
+    },
+    "craf_v1_lr1e5_test.json": {
+      "archived": "results/server_records/hammer-craf/craf_lr_1e5/test_comparison.json",
+      "original_sha256": "4f1c7fbfdcb8d528fd64f8a0944b4ef68f22305faaa8e92e3c83471f69c1b54f",
+      "normalized_json_sha256": "c73678e55dc1508a1be36eed33b3a3c6512b1d6b9337a3594bb2187ea8ae70c6"
+    },
+    "craf_v2_combined_test.json": {
+      "archived": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json",
+      "original_sha256": "b6f664cf2b06835135e144e0d84212c77d78ffc266d0f4112a71630c9ad61aad",
+      "normalized_json_sha256": "3c85029bc04ae7fbb7479a6cec476336f44ed9e4ebec6ec6ee639eae96ad76c0"
+    }
+  }
+}

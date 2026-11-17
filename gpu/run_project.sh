@@ -87,7 +87,7 @@ Explicit actions only; no default download, extraction, training or test.
   v2-train / v2-resume          Existing cache; pass original variant flags
   v1-evaluate / v2-evaluate     Existing test cache, no extraction
   download-data                Explicit dataset download/validation
-Read docs/GPU_KULLANIM.md for required environment variables and resume settings.
+Read docs/GPU_USAGE.md for required environment variables and resume settings.
 HELP
     ;;
   *) echo "Unknown command: $command" >&2; exit 2 ;;

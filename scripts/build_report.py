@@ -82,7 +82,7 @@ def build(source, destination, fonts, landscape_mode=False, page_offset=0, repor
         if paragraph:
             content = ' '.join(paragraph)
             paragraph_style = (ParagraphStyle('CodeSource', parent=styles['body'], keepWithNext=True)
-                               if content.startswith('Kaynak:') else styles['body'])
+                               if content.startswith(('Kaynak:', 'Source:')) else styles['body'])
             story.append(Paragraph(inline(content), paragraph_style))
             paragraph.clear()
 
@@ -173,7 +173,7 @@ if __name__ == '__main__':
     p.add_argument('--without-matrix', action='store_true', help='Render just the main Markdown, without appendix')
     args = p.parse_args()
     fonts = font_directory(args.font_dir)
-    matrix_path = ROOT / 'docs/LITERATUR_MATRISI.md'
+    matrix_path = ROOT / 'docs/LITERATURE_MATRIX.md'
     if args.without_matrix or args.source.name != 'Kocak_YZM5110_Research.md' or not matrix_path.exists():
         build(args.source, args.output, fonts, report_date=args.report_date)
     else:

@@ -1,6 +1,6 @@
 # HAMMER / CRAF GPU code package
 
-Start with [GPU_KULLANIM.md](../docs/GPU_KULLANIM.md). All commands there run
+Start with [GPU_USAGE.md](../docs/GPU_USAGE.md). All commands there run
 from the package root (the directory containing `gpu`, `scripts`, `docs`).
 
 Production Python files, portable tests, both original launchers and original

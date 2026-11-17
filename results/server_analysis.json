@@ -1,10 +1,10 @@
 {
   "status": "passed",
   "environment": {
-    "python_executable": "/private/tmp/hammer-craf-review-20261117/bin/python",
+    "python_executable": "/Users/emirkocak/Documents/Codex/2026-10-22/hoc/work/hammer-apple/.venv-apple/bin/python",
     "numpy": "1.26.4",
-    "sklearn": "1.6.1",
-    "scipy": "1.14.1"
+    "sklearn": "1.7.2",
+    "scipy": "1.15.3"
   },
   "runs": {
     "v1_lr1e4": {
@@ -4184,24 +4184,21 @@
   },
   "user_transcription_comparisons": {
     "v1_lr1e4": {
-      "normalized_json_hash_equal": true,
+      "full_json_equal": true,
       "includes_cache_and_checkpoint_identities": true,
-      "fingerprint_file": "results/user_reported/TRANSCRIPTIONS.json",
-      "historical_name": "craf_v1_lr1e4_test.json",
+      "old_file": "results/user_reported/craf_v1_lr1e4_test.json",
       "original_file": "results/server_records/hammer-craf/craf_results/test_comparison.json"
     },
     "v1_lr1e5": {
-      "normalized_json_hash_equal": true,
+      "full_json_equal": true,
       "includes_cache_and_checkpoint_identities": true,
-      "fingerprint_file": "results/user_reported/TRANSCRIPTIONS.json",
-      "historical_name": "craf_v1_lr1e5_test.json",
+      "old_file": "results/user_reported/craf_v1_lr1e5_test.json",
       "original_file": "results/server_records/hammer-craf/craf_lr_1e5/test_comparison.json"
     },
     "v2_combined": {
-      "normalized_json_hash_equal": true,
+      "full_json_equal": true,
       "includes_cache_and_checkpoint_identities": true,
-      "fingerprint_file": "results/user_reported/TRANSCRIPTIONS.json",
-      "historical_name": "craf_v2_combined_test.json",
+      "old_file": "results/user_reported/craf_v2_combined_test.json",
       "original_file": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json"
     }
   },
@@ -4688,7 +4685,7 @@
       "passed": true
     },
     {
-      "name": "v1_lr1e4: recorded transcription fingerprint matches original",
+      "name": "v1_lr1e4: full old transcription/original equality",
       "passed": true
     },
     {
@@ -4764,7 +4761,7 @@
       "passed": true
     },
     {
-      "name": "v1_lr1e5: recorded transcription fingerprint matches original",
+      "name": "v1_lr1e5: full old transcription/original equality",
       "passed": true
     },
     {
@@ -4840,7 +4837,7 @@
       "passed": true
     },
     {
-      "name": "v2_combined: recorded transcription fingerprint matches original",
+      "name": "v2_combined: full old transcription/original equality",
       "passed": true
     },
     {
@@ -4936,17 +4933,17 @@
     "hammer-craf/craf_results/run.json": "results/server_records/hammer-craf/craf_results/run.json",
     "hammer-craf/craf_results/history.json": "results/server_records/hammer-craf/craf_results/history.json",
     "hammer-craf/craf_results/validation_comparison.json": "results/server_records/hammer-craf/craf_results/validation_comparison.json",
-    "hammer-craf/craf_residual.py": "gpu/craf_residual.py",
-    "hammer-craf/hammer_craf_server.py": "gpu/hammer_craf_server.py",
+    "hammer-craf/craf_residual.py": "results/server_records/hammer-craf/craf_residual.py",
+    "hammer-craf/hammer_craf_server.py": "results/server_records/hammer-craf/hammer_craf_server.py",
     "hammer-craf/craf_lr_1e5/run.json": "results/server_records/hammer-craf/craf_lr_1e5/run.json",
     "hammer-craf/craf_lr_1e5/history.json": "results/server_records/hammer-craf/craf_lr_1e5/history.json",
     "hammer-craf/craf_lr_1e5/validation_comparison.json": "results/server_records/hammer-craf/craf_lr_1e5/validation_comparison.json",
     "hammer-craf-v2/craf_v2_control_seed42/run.json": "results/server_records/hammer-craf-v2/craf_v2_control_seed42/run.json",
     "hammer-craf-v2/craf_v2_control_seed42/history.json": "results/server_records/hammer-craf-v2/craf_v2_control_seed42/history.json",
     "hammer-craf-v2/craf_v2_control_seed42/validation_comparison.json": "results/server_records/hammer-craf-v2/craf_v2_control_seed42/validation_comparison.json",
-    "hammer-craf-v2/craf_residual_v2.py": "gpu/craf_residual_v2.py",
-    "hammer-craf-v2/hammer_craf_v2_server.py": "gpu/hammer_craf_v2_server.py",
-    "hammer-craf-v2/hammer_craf_server.py": "gpu/hammer_craf_server.py",
+    "hammer-craf-v2/craf_residual_v2.py": "results/server_records/hammer-craf-v2/craf_residual_v2.py",
+    "hammer-craf-v2/hammer_craf_v2_server.py": "results/server_records/hammer-craf-v2/hammer_craf_v2_server.py",
+    "hammer-craf-v2/hammer_craf_server.py": "results/server_records/hammer-craf-v2/hammer_craf_server.py",
     "hammer-craf-v2/craf_v2_penalty_seed42/run.json": "results/server_records/hammer-craf-v2/craf_v2_penalty_seed42/run.json",
     "hammer-craf-v2/craf_v2_penalty_seed42/history.json": "results/server_records/hammer-craf-v2/craf_v2_penalty_seed42/history.json",
     "hammer-craf-v2/craf_v2_penalty_seed42/validation_comparison.json": "results/server_records/hammer-craf-v2/craf_v2_penalty_seed42/validation_comparison.json",

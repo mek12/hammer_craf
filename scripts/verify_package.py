@@ -52,12 +52,12 @@ def main():
                 'qa/REPOSITORY_CLEANUP.md', 'qa/REPOSITORY_CLEANUP.json',
                 'AI_USE.md', 'TESLIM_KONTROLU.md', 'NOTICE.md',
                 'reports/Kocak_YZM5110_Research.md', 'reports/Kocak_YZM5110_Research.pdf',
-                'docs/LITERATUR_MATRISI.md', 'docs/MAKALE_OKUMA_REHBERI.md', 'docs/references.bib',
-                'docs/GPU_KULLANIM.md', 'docs/THIRD_PARTY_SLAB_LICENSE.txt',
+                'docs/LITERATURE_MATRIX.md', 'docs/PAPER_READING_GUIDE.md', 'docs/references.bib',
+                'docs/GPU_USAGE.md', 'docs/THIRD_PARTY_SLAB_LICENSE.txt',
                 'qa/INDEPENDENT_MANAGER_REVIEW.md', 'qa/MANAGER_VALIDATION.json',
                 'qa/SERVER_UPDATE_MANAGER_REVIEW.md', 'qa/SERVER_SOURCE_AUDIT.json',
                 'results/server_analysis.json', 'results/SERVER_EVIDENCE_INDEX.json',
-                'docs/SERVER_SONUC_ANALIZI.md', 'docs/SERVER_KOD_KARSILASTIRMASI.md',
+                'docs/SERVER_RESULTS_ANALYSIS.md', 'docs/SERVER_CODE_AUDIT.md',
                 'results/HAMMER_TRAINING_SUMMARY.md', 'results/hammer_training_analysis.json',
                 'qa/HAMMER_TRAINING_REVIEW.md']
     for name in required:
