@@ -47,19 +47,18 @@ def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--write-manifest', action='store_true')
     args = p.parse_args()
-    required = ['README.md', '.gitignore', 'requirements-cpu.txt',
+    required = ['README.md', '.gitignore', 'requirements-cpu.txt', 'AI_USE.md', 'NOTICE.md',
                 'scripts/evidence.py', 'results/user_reported/TRANSCRIPTIONS.json',
-                'qa/REPOSITORY_CLEANUP.md', 'qa/REPOSITORY_CLEANUP.json',
-                'AI_USE.md', 'TESLIM_KONTROLU.md', 'NOTICE.md',
-                'reports/Kocak_YZM5110_Research.md', 'reports/Kocak_YZM5110_Research.pdf',
+                'reports/Kocak_YZM5110_Research.pdf', 'reports/Kocak_YZM5110_Research_TR.pdf',
+                'reports/build/report_en.html', 'reports/build/report_tr.html',
                 'docs/LITERATURE_MATRIX.md', 'docs/PAPER_READING_GUIDE.md', 'docs/references.bib',
                 'docs/GPU_USAGE.md', 'docs/THIRD_PARTY_SLAB_LICENSE.txt',
-                'qa/INDEPENDENT_MANAGER_REVIEW.md', 'qa/MANAGER_VALIDATION.json',
-                'qa/SERVER_UPDATE_MANAGER_REVIEW.md', 'qa/SERVER_SOURCE_AUDIT.json',
-                'results/server_analysis.json', 'results/SERVER_EVIDENCE_INDEX.json',
+                'docs/EXTERNAL_SOURCE_VERIFICATION.md', 'docs/REPORT_GENERATION.md',
                 'docs/SERVER_RESULTS_ANALYSIS.md', 'docs/SERVER_CODE_AUDIT.md',
+                'results/server_analysis.json', 'results/SERVER_EVIDENCE_INDEX.json',
                 'results/HAMMER_TRAINING_SUMMARY.md', 'results/hammer_training_analysis.json',
-                'qa/HAMMER_TRAINING_REVIEW.md']
+                'results/bootstrap_uncertainty.json', 'results/calibration_analysis.json',
+                'results/report_number_check.json', 'scripts/check_report_numbers.py']
     for name in required:
         if not (ROOT / name).is_file():
             raise FileNotFoundError(f'Required artifact missing: {name}')
