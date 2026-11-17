@@ -1,0 +1,934 @@
+{
+ "checked": 116,
+ "failed": 0,
+ "rows": [
+  {
+   "where": "Table 3 ours AUC_cls",
+   "quoted": 92.67,
+   "file": "results/server_records/hammer_training/test_metrics.json",
+   "file_value": 92.6660032897914,
+   "digits": 2,
+   "ok": true
+  },
+  {
+   "where": "Table 3 ours ACC_cls",
+   "quoted": 85.34,
+   "file": "results/server_records/hammer_training/test_metrics.json",
+   "file_value": 85.3426683758998,
+   "digits": 2,
+   "ok": true
+  },
+  {
+   "where": "Table 3 ours EER_cls",
+   "quoted": 15.14,
+   "file": "results/server_records/hammer_training/test_metrics.json",
+   "file_value": 15.13789943539566,
+   "digits": 2,
+   "ok": true
+  },
+  {
+   "where": "Table 3 ours MAP",
+   "quoted": 86.44,
+   "file": "results/server_records/hammer_training/test_metrics.json",
+   "file_value": 86.44028902053833,
+   "digits": 2,
+   "ok": true
+  },
+  {
+   "where": "Table 3 ours CF1",
+   "quoted": 78.01,
+   "file": "results/server_records/hammer_training/test_metrics.json",
+   "file_value": 78.00786468178896,
+   "digits": 2,
+   "ok": true
+  },
+  {
+   "where": "Table 3 ours OF1",
+   "quoted": 78.88,
+   "file": "results/server_records/hammer_training/test_metrics.json",
+   "file_value": 78.8828690962495,
+   "digits": 2,
+   "ok": true
+  },
+  {
+   "where": "Table 3 ours IOU_score",
+   "quoted": 70.61,
+   "file": "results/server_records/hammer_training/test_metrics.json",
+   "file_value": 70.61184008892262,
+   "digits": 2,
+   "ok": true
+  },
+  {
+   "where": "Table 3 ours IOU_ACC_50",
+   "quoted": 78.93,
+   "file": "results/server_records/hammer_training/test_metrics.json",
+   "file_value": 78.93107188640174,
+   "digits": 2,
+   "ok": true
+  },
+  {
+   "where": "Table 3 ours IOU_ACC_75",
+   "quoted": 61.77,
+   "file": "results/server_records/hammer_training/test_metrics.json",
+   "file_value": 61.77102849817572,
+   "digits": 2,
+   "ok": true
+  },
+  {
+   "where": "Table 3 ours Precision_tok",
+   "quoted": 74.4,
+   "file": "results/server_records/hammer_training/test_metrics.json",
+   "file_value": 74.40190889732047,
+   "digits": 2,
+   "ok": true
+  },
+  {
+   "where": "Table 3 ours Recall_tok",
+   "quoted": 67.47,
+   "file": "results/server_records/hammer_training/test_metrics.json",
+   "file_value": 67.46737113564173,
+   "digits": 2,
+   "ok": true
+  },
+  {
+   "where": "Table 3 ours F1_tok",
+   "quoted": 70.77,
+   "file": "results/server_records/hammer_training/test_metrics.json",
+   "file_value": 70.7651607114583,
+   "digits": 2,
+   "ok": true
+  },
+  {
+   "where": "Table 3 sample count",
+   "quoted": 50705,
+   "file": "results/server_records/hammer_training/test_metrics.json",
+   "file_value": 50705,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 6 HAMMER test seconds",
+   "quoted": 269,
+   "file": "results/server_records/hammer_training/test_metrics.json",
+   "file_value": 269.18170142173767,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 2 logged epochs",
+   "quoted": 11,
+   "file": "results/server_records/hammer_training/log.jsonl",
+   "file_value": 11,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 6 HAMMER logged epoch seconds",
+   "quoted": 14907,
+   "file": "results/server_records/hammer_training/log.jsonl",
+   "file_value": 14907.237144708633,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Figure 2 last val AUC %",
+   "quoted": 92.32,
+   "file": "results/server_records/hammer_training/log.jsonl",
+   "file_value": 92.32464653183226,
+   "digits": 2,
+   "ok": true
+  },
+  {
+   "where": "Table 2 batch per GPU",
+   "quoted": 64,
+   "file": "results/server_records/hammer_training/run_args.json",
+   "file_value": 64,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 2 world size",
+   "quoted": 4,
+   "file": "results/server_records/hammer_training/run_args.json",
+   "file_value": 4,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 2 planned epochs",
+   "quoted": 25,
+   "file": "results/server_records/hammer_training/run_args.json",
+   "file_value": 25,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 2 seed",
+   "quoted": 42,
+   "file": "results/server_records/hammer_training/run_args.json",
+   "file_value": 42,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 4 train rows",
+   "quoted": 208184,
+   "file": "results/server_records/hammer-craf/craf_features/train.manifest.json",
+   "file_value": 208184,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 4 train unique news ids",
+   "quoted": 56894,
+   "file": "results/server_records/hammer-craf/craf_features/train.manifest.json",
+   "file_value": 56894,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 4 val rows",
+   "quoted": 22126,
+   "file": "results/server_records/hammer-craf/craf_features/val.manifest.json",
+   "file_value": 22126,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 4 val unique news ids",
+   "quoted": 7975,
+   "file": "results/server_records/hammer-craf/craf_features/val.manifest.json",
+   "file_value": 7975,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 4 test rows",
+   "quoted": 50705,
+   "file": "results/server_records/hammer-craf/craf_features/test.manifest.json",
+   "file_value": 50705,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 4 test unique news ids",
+   "quoted": 18360,
+   "file": "results/server_records/hammer-craf/craf_features/test.manifest.json",
+   "file_value": 18360,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 6 news-id overlap train/val",
+   "quoted": 0,
+   "file": "results/server_records/hammer-craf/craf_features/test.manifest.json",
+   "file_value": 0,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 6 news-id overlap train/test",
+   "quoted": 0,
+   "file": "results/server_records/hammer-craf/craf_features/test.manifest.json",
+   "file_value": 0,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 6 news-id overlap val/test",
+   "quoted": 0,
+   "file": "results/server_records/hammer-craf/craf_features/test.manifest.json",
+   "file_value": 0,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 5 baseline acc",
+   "quoted": 85.343,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 85.3426683758998,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 baseline bal_acc",
+   "quoted": 83.851,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 83.85132719737895,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 baseline macro_f1",
+   "quoted": 83.612,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 83.61214788764306,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 baseline auc",
+   "quoted": 92.666,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 92.6660032022101,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 baseline ce",
+   "quoted": 0.5261,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 0.5260908198173748,
+   "digits": 4,
+   "ok": true
+  },
+  {
+   "where": "Table 5 baseline errors",
+   "quoted": 7432,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 7432,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 7.3 baseline false alarms",
+   "quoted": 3478,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 3478,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 7.3 baseline misses",
+   "quoted": 3954,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 3954,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v1_lr1e4 acc",
+   "quoted": 85.514,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 85.51424908786116,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v1_lr1e4 bal_acc",
+   "quoted": 83.888,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 83.88785962970029,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v1_lr1e4 macro_f1",
+   "quoted": 83.755,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 83.75454843241592,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v1_lr1e4 auc",
+   "quoted": 92.861,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 92.8614575743174,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v1_lr1e4 ce",
+   "quoted": 0.5631,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 0.5630574519832201,
+   "digits": 4,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v1_lr1e4 errors",
+   "quoted": 7345,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 7345,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 7.3 v1 1e-4 false alarms",
+   "quoted": 3540,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 3540,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 7.3 v1 1e-4 misses",
+   "quoted": 3805,
+   "file": "results/server_records/hammer-craf/craf_results/test_comparison.json",
+   "file_value": 3805,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v1_lr1e5 acc",
+   "quoted": 85.534,
+   "file": "results/server_records/hammer-craf/craf_lr_1e5/test_comparison.json",
+   "file_value": 85.53397100877625,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v1_lr1e5 bal_acc",
+   "quoted": 84.056,
+   "file": "results/server_records/hammer-craf/craf_lr_1e5/test_comparison.json",
+   "file_value": 84.05557070205812,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v1_lr1e5 macro_f1",
+   "quoted": 83.823,
+   "file": "results/server_records/hammer-craf/craf_lr_1e5/test_comparison.json",
+   "file_value": 83.82255755587066,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v1_lr1e5 auc",
+   "quoted": 92.859,
+   "file": "results/server_records/hammer-craf/craf_lr_1e5/test_comparison.json",
+   "file_value": 92.8592288932827,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v1_lr1e5 ce",
+   "quoted": 0.5647,
+   "file": "results/server_records/hammer-craf/craf_lr_1e5/test_comparison.json",
+   "file_value": 0.5646520521504247,
+   "digits": 4,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v1_lr1e5 errors",
+   "quoted": 7335,
+   "file": "results/server_records/hammer-craf/craf_lr_1e5/test_comparison.json",
+   "file_value": 7335,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 7.3 v1 1e-5 false alarms",
+   "quoted": 3437,
+   "file": "results/server_records/hammer-craf/craf_lr_1e5/test_comparison.json",
+   "file_value": 3437,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 7.3 v1 1e-5 misses",
+   "quoted": 3898,
+   "file": "results/server_records/hammer-craf/craf_lr_1e5/test_comparison.json",
+   "file_value": 3898,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v2_combined acc",
+   "quoted": 85.416,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json",
+   "file_value": 85.41563948328567,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v2_combined bal_acc",
+   "quoted": 83.772,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json",
+   "file_value": 83.77238510282649,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v2_combined macro_f1",
+   "quoted": 83.643,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json",
+   "file_value": 83.64253080545299,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v2_combined auc",
+   "quoted": 92.747,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json",
+   "file_value": 92.74684729959318,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v2_combined ce",
+   "quoted": 0.5304,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json",
+   "file_value": 0.5304185788655407,
+   "digits": 4,
+   "ok": true
+  },
+  {
+   "where": "Table 5 v2_combined errors",
+   "quoted": 7395,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json",
+   "file_value": 7395,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 7.3 v2 combined false alarms",
+   "quoted": 3568,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/test_comparison.json",
+   "file_value": 3568,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 7 baseline AUC",
+   "quoted": 0.923246,
+   "file": "results/server_records/hammer-craf/craf_results/validation_comparison.json",
+   "file_value": 0.9232464744505868,
+   "digits": 6,
+   "ok": true
+  },
+  {
+   "where": "Table 7 baseline CE",
+   "quoted": 0.5413,
+   "file": "results/server_records/hammer-craf/craf_results/validation_comparison.json",
+   "file_value": 0.5413291792021263,
+   "digits": 4,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v1_lr1e4 AUC",
+   "quoted": 0.925029,
+   "file": "results/server_records/hammer-craf/craf_results/validation_comparison.json",
+   "file_value": 0.9250293755260013,
+   "digits": 6,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v1_lr1e4 CE",
+   "quoted": 0.583,
+   "file": "results/server_records/hammer-craf/craf_results/validation_comparison.json",
+   "file_value": 0.5829581900941069,
+   "digits": 4,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v1_lr1e4 selected epoch (1-based)",
+   "quoted": 2,
+   "file": "results/server_records/hammer-craf/craf_results/validation_comparison.json",
+   "file_value": 2,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v1_lr1e4 completed epochs",
+   "quoted": 7,
+   "file": "results/server_records/hammer-craf/craf_results/history.json",
+   "file_value": 7,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_control AUC",
+   "quoted": 0.924935,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_control_seed42/validation_comparison.json",
+   "file_value": 0.9249354319239976,
+   "digits": 6,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_control CE",
+   "quoted": 0.5847,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_control_seed42/validation_comparison.json",
+   "file_value": 0.5847013137194585,
+   "digits": 4,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_control selected epoch (1-based)",
+   "quoted": 9,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_control_seed42/validation_comparison.json",
+   "file_value": 9,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_control completed epochs",
+   "quoted": 17,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_control_seed42/history.json",
+   "file_value": 17,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_decision AUC",
+   "quoted": 0.92498,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_decision_seed42/validation_comparison.json",
+   "file_value": 0.9249796503473379,
+   "digits": 6,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_decision CE",
+   "quoted": 0.5707,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_decision_seed42/validation_comparison.json",
+   "file_value": 0.5707323620320286,
+   "digits": 4,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_decision selected epoch (1-based)",
+   "quoted": 3,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_decision_seed42/validation_comparison.json",
+   "file_value": 3,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_decision completed epochs",
+   "quoted": 11,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_decision_seed42/history.json",
+   "file_value": 11,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_penalty AUC",
+   "quoted": 0.923851,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_penalty_seed42/validation_comparison.json",
+   "file_value": 0.9238513408387579,
+   "digits": 6,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_penalty CE",
+   "quoted": 0.5471,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_penalty_seed42/validation_comparison.json",
+   "file_value": 0.547143179665822,
+   "digits": 4,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_penalty selected epoch (1-based)",
+   "quoted": 16,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_penalty_seed42/validation_comparison.json",
+   "file_value": 16,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_penalty completed epochs",
+   "quoted": 24,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_penalty_seed42/history.json",
+   "file_value": 24,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_combined AUC",
+   "quoted": 0.923829,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/validation_comparison.json",
+   "file_value": 0.9238293594787866,
+   "digits": 6,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_combined CE",
+   "quoted": 0.5472,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/validation_comparison.json",
+   "file_value": 0.5471654872916242,
+   "digits": 4,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_combined selected epoch (1-based)",
+   "quoted": 13,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/validation_comparison.json",
+   "file_value": 13,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 7 v2_combined completed epochs",
+   "quoted": 21,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/history.json",
+   "file_value": 21,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 6 v1_lr1e4 logged head seconds",
+   "quoted": 45.745,
+   "file": "results/server_records/hammer-craf/craf_results/history.json",
+   "file_value": 45.74475598335266,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Sec 6 v2_penalty logged head seconds",
+   "quoted": 157.439,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_penalty_seed42/history.json",
+   "file_value": 157.43943738937378,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Sec 6 v1_lr1e4 seed",
+   "quoted": 42,
+   "file": "results/server_records/hammer-craf/craf_results/run.json",
+   "file_value": 42,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 6 v1_lr1e5 seed",
+   "quoted": 42,
+   "file": "results/server_records/hammer-craf/craf_lr_1e5/run.json",
+   "file_value": 42,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 6 v2_control seed",
+   "quoted": 42,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_control_seed42/run.json",
+   "file_value": 42,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 6 v2_penalty seed",
+   "quoted": 42,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_penalty_seed42/run.json",
+   "file_value": 42,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 6 v2_decision seed",
+   "quoted": 42,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_decision_seed42/run.json",
+   "file_value": 42,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 6 v2_combined seed",
+   "quoted": 42,
+   "file": "results/server_records/hammer-craf-v2/craf_v2_combined_seed42/run.json",
+   "file_value": 42,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v1_lr1e4 fixed",
+   "quoted": 707,
+   "file": "results/server_analysis.json",
+   "file_value": 707,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v1_lr1e4 new errors",
+   "quoted": 620,
+   "file": "results/server_analysis.json",
+   "file_value": 620,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v1_lr1e4 McNemar p",
+   "quoted": 0.018,
+   "file": "results/server_analysis.json",
+   "file_value": 0.018201191365002194,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v1_lr1e5 fixed",
+   "quoted": 730,
+   "file": "results/server_analysis.json",
+   "file_value": 730,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v1_lr1e5 new errors",
+   "quoted": 633,
+   "file": "results/server_analysis.json",
+   "file_value": 633,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v1_lr1e5 McNemar p",
+   "quoted": 0.009,
+   "file": "results/server_analysis.json",
+   "file_value": 0.00928937708445188,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v2_combined fixed",
+   "quoted": 368,
+   "file": "results/server_analysis.json",
+   "file_value": 368,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v2_combined new errors",
+   "quoted": 331,
+   "file": "results/server_analysis.json",
+   "file_value": 331,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v2_combined McNemar p",
+   "quoted": 0.173,
+   "file": "results/server_analysis.json",
+   "file_value": 0.17326620364959772,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v1_lr1e4 AUC CI low",
+   "quoted": 0.148,
+   "file": "results/bootstrap_uncertainty.json",
+   "file_value": 0.14772317229080567,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v1_lr1e4 AUC CI high",
+   "quoted": 0.246,
+   "file": "results/bootstrap_uncertainty.json",
+   "file_value": 0.2456871781470876,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v1_lr1e5 AUC CI low",
+   "quoted": 0.142,
+   "file": "results/bootstrap_uncertainty.json",
+   "file_value": 0.14192779147365803,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v1_lr1e5 AUC CI high",
+   "quoted": 0.242,
+   "file": "results/bootstrap_uncertainty.json",
+   "file_value": 0.2419585164783538,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v2_combined AUC CI low",
+   "quoted": 0.058,
+   "file": "results/bootstrap_uncertainty.json",
+   "file_value": 0.05840399131821384,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 6 v2_combined AUC CI high",
+   "quoted": 0.104,
+   "file": "results/bootstrap_uncertainty.json",
+   "file_value": 0.10440254861968445,
+   "digits": 3,
+   "ok": true
+  },
+  {
+   "where": "Table 8 hammer errors conf>0.99",
+   "quoted": 1999,
+   "file": "results/calibration_analysis.json",
+   "file_value": 1999,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 8 hammer ECE",
+   "quoted": 0.101,
+   "file": "results/calibration_analysis.json",
+   "file_value": 0.10098890152665528,
+   "digits": 4,
+   "ok": true
+  },
+  {
+   "where": "Table 8 v1_lr1e4 errors conf>0.99",
+   "quoted": 2325,
+   "file": "results/calibration_analysis.json",
+   "file_value": 2325,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 8 v1_lr1e4 ECE",
+   "quoted": 0.1048,
+   "file": "results/calibration_analysis.json",
+   "file_value": 0.10483055871375677,
+   "digits": 4,
+   "ok": true
+  },
+  {
+   "where": "Table 8 v1_lr1e5 errors conf>0.99",
+   "quoted": 2322,
+   "file": "results/calibration_analysis.json",
+   "file_value": 2322,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 8 v1_lr1e5 ECE",
+   "quoted": 0.1048,
+   "file": "results/calibration_analysis.json",
+   "file_value": 0.1047877519410483,
+   "digits": 4,
+   "ok": true
+  },
+  {
+   "where": "Table 8 v2_combined errors conf>0.99",
+   "quoted": 2059,
+   "file": "results/calibration_analysis.json",
+   "file_value": 2059,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Table 8 v2_combined ECE",
+   "quoted": 0.1023,
+   "file": "results/calibration_analysis.json",
+   "file_value": 0.10234753276479425,
+   "digits": 4,
+   "ok": true
+  },
+  {
+   "where": "Sec 5 CRAF parameters",
+   "quoted": 922117,
+   "file": "results/model_resources.json",
+   "file_value": 922117,
+   "digits": 0,
+   "ok": true
+  },
+  {
+   "where": "Sec 7.5 v2-decision parameters",
+   "quoted": 922885,
+   "file": "results/model_resources.json",
+   "file_value": 922885,
+   "digits": 0,
+   "ok": true
+  }
+ ]
+}
